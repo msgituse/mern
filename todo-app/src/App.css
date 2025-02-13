@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.todo-app {
+  text-align: center;
+  width: 100%;
+  min-width: 800px;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin: 3%;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 4%;
+  width: 10%;
+  min-width: 100px;
+}
+
+.add-todo-form button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.filter-btn {
+  background-color: #cccccc;
+  color: #333;
+}
+
+.add-todo-form input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 70%;
+  font-size: 1rem;
+  margin: 3%;
+}
+
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.todo-item.completed div {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.todo-item div {
+  width: 90%;
+  text-align: left;
+}
+
+.todo-item button {
+  width: 10%;
+}
+
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.pagination button {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.filter button {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .todo-app {
+    width: 90%;
+  }
+
+  .add-todo-form input {
+    width: 60%;
+  }
+}
