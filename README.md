@@ -1,8 +1,18 @@
+# return-indices-of-the-two-numbers (Question 2)
+
+- This directory contains index.js javascript file, when you run this javascript file you will get below response,
+
+const nums = [2, 7, 11, 15];
+const target = 9;
+The function should return [0, 1] because nums[0] + nums[1] = 2 + 7 = 9.
+
 # node-mongo-aggragation (Question 3)
 
 cd node-mongo-aggregation
 
 # Start server with below command
+
+npm install
 
 npm start
 
@@ -113,3 +123,14 @@ you will get below expected response,
     "month": "2024-06"
   }
 ]
+
+
+# todo-app (Question 4)
+
+cd todo-app
+
+npm install
+
+npm run dev
+
+now, you will get todo react-app with mentioned functionality

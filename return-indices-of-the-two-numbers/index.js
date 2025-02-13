@@ -23,9 +23,9 @@ const getIndicesOfTwonumbers = (numsArray, targetSum) => {
 }
 
 try {
-    const numsArray = [2, 7, 11, 15]
-    const targetSum = 9
-    console.log(getIndicesOfTwonumbers(numsArray, targetSum))
+    const nums= [2, 7, 11, 15]
+    const target = 9
+    console.log(getIndicesOfTwonumbers(nums, target))
 } catch (error) {
     console.error(error.message)
 }
